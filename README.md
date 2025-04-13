@@ -16,3 +16,18 @@ A modern React application for displaying and managing user data with a clean, r
 - **JavaScript**: Core language for logic and state management.
 
 ## Project Structure
+
+src/
+├── components/
+│   ├── ui/               # Reusable UI components
+│   │   ├── Modal.jsx     # Generic modal component
+│   │   ├── Input.jsx     # Reusable input field component
+│   │   ├── Button.jsx    # Custom button with variant support
+│   │   └── Spinner.jsx   # Loading spinner component
+│   ├── forms/            # Form-specific components
+│   │   └── RegistrationForm.jsx  # User registration form
+│   ├── TableToolbar.jsx  # Toolbar for the users table
+│   ├── TableRow.jsx      # Single row in the users table
+│   └── UsersTable.jsx    # Main table component for displaying users
+├── App.jsx               # Root component with modal and form integration
+└── README.md             # Project documentation
