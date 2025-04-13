@@ -1,12 +1,18 @@
-# React + Vite
+# Users Management Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React application for displaying and managing user data with a clean, responsive UI. This project showcases best practices in component-based architecture, state management, and user experience enhancements like loading spinners and success messages.
 
-Currently, two official plugins are available:
+## Features
+- **Users Table**: Displays paginated user data fetched from an API with a responsive table design.
+- **Registration Modal**: A reusable modal with a form for user registration, including password visibility toggle.
+- **Loading State**: A custom spinner overlay for indicating data fetching or form submission processes.
+- **Success Feedback**: A friendly success message displayed after form submission.
+- **Component Reusability**: Modular UI components (`Modal`, `Input`, `Button`, etc.) designed for flexibility and reuse.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
+- **React**: Frontend library for building UI components.
+- **Tailwind CSS**: Utility-first CSS framework for styling.
+- **Headless UI**: Unstyled, accessible UI components for modals and dialogs.
+- **JavaScript**: Core language for logic and state management.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Project Structure
