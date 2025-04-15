@@ -1,8 +1,8 @@
-import DataTable from "../components/DataTable";
+import DataTable from "../components/table/DataTable";
 
 const UsersPage = () => {
   return (
-    <div className="w-full p-4 lg:w-3/5">
+    <div className="w-full p-4">
       <DataTable />
     </div>
   );
