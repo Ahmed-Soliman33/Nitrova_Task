@@ -62,9 +62,8 @@ function DataTable() {
   };
 
   return (
-    <div className="w-full rounded-md bg-white shadow-sm">
+    <div className="h-screen w-full rounded-md bg-white shadow-sm">
       <TableHeader searchQuery={searchQuery} setSearchQuery={setSearchQuery} />
-
       {loading ? <Spinner /> : <TableBody users={currentUsers} />}
       <TablePagination
         currentPage={currentPage}

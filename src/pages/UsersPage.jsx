@@ -2,7 +2,7 @@ import DataTable from "../components/table/DataTable";
 
 const UsersPage = () => {
   return (
-    <div className="w-full p-4">
+    <div className="h-screen w-full p-4">
       <DataTable />
     </div>
   );
