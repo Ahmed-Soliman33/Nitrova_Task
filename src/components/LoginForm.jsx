@@ -15,7 +15,7 @@ function LoginForm({ onRegisterClick }) {
   };
 
   return (
-    <div className="m-auto flex w-[400px] flex-col justify-start rounded-lg p-8 shadow-lg lg:absolute lg:top-1/2 lg:left-1/2 lg:-translate-x-1/2 lg:-translate-y-1/2">
+    <div className="m-auto flex w-[400px] flex-col justify-start rounded-lg shadow-lg">
       <div className="text-textColor mb-8 flex flex-col gap-2 tracking-[0%]">
         <h2 className="text-[26px] leading-[100%] font-bold">Hello Again!</h2>
         <p className="text-[18px] leading-[100%] font-normal">Welcome Back</p>
