@@ -32,7 +32,7 @@ const LoginPage = () => {
           <div className="border-primary absolute top-[570px] left-[-126px] hidden h-[557px] w-[557px] rounded-full border lg:block xl:top-[606px]"></div>
         </div>
 
-        <div className="w-full bg-white px-4 py-8">
+        <div className="w-full bg-white">
           <LoginForm
             onRegisterClick={(e) => {
               e.stopPropagation();
