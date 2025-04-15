@@ -100,7 +100,7 @@ function RegistrationModal({ onClose }) {
             />
           </div>
 
-          <button className="w-full rounded-md bg-[#2264e5] py-3 text-white hover:bg-[#0575e6]">
+          <button className="hover:bg-primary w-full rounded-md bg-[#2264e5] py-3 text-white">
             Create Account
           </button>
 

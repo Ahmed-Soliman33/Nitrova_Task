@@ -37,7 +37,7 @@ function Logo({ className }) {
           </linearGradient>
         </defs>
       </svg>
-      <div className="text-2xl font-bold text-[#0575e6]">
+      <div className="text-primary text-2xl font-bold">
         UPNA<span className="text-[#4f5aed]">8</span>
       </div>
     </div>

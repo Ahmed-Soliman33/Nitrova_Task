@@ -55,7 +55,7 @@ function DataTable() {
               />
             </svg>
           </button>
-          <button className="flex items-center gap-2 rounded-md bg-[#2264e5] px-4 py-2 text-white hover:bg-[#0575e6]">
+          <button className="hover:bg-primary flex items-center gap-2 rounded-md bg-[#2264e5] px-4 py-2 text-white">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-4 w-4"

@@ -1,21 +1,18 @@
-import Logo from "./Logo";
+import Button from "./common/Button";
 
 function LoginForm({ onRegisterClick }) {
   return (
-    <div className="w-full rounded-lg bg-white p-8 shadow-lg">
-      <div className="mb-8 flex flex-col items-center">
-        <Logo className="mb-6" />
-        <h2 className="mb-1 text-2xl font-semibold text-[#171c26]">
-          Hello Again!
-        </h2>
-        <p className="text-[#687182]">Welcome Back</p>
+    <div className="flex w-full flex-col justify-start rounded-lg p-8 shadow-lg">
+      <div className="text-textColor mb-8 flex flex-col gap-2 tracking-[0%]">
+        <h2 className="text-[26px] leading-[100%] font-bold">Hello Again!</h2>
+        <p className="text-[18px] leading-[100%] font-normal">Welcome Back</p>
       </div>
 
-      <div className="space-y-4">
+      <div className="flex flex-col gap-2">
         <div className="relative">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            className="absolute top-1/2 left-3 h-5 w-5 -translate-y-1/2 transform text-[#687182]"
+            className="text-textColor absolute top-1/2 left-3 h-5 w-5 -translate-y-1/2 transform opacity-80"
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
@@ -30,14 +27,14 @@ function LoginForm({ onRegisterClick }) {
           <input
             type="email"
             placeholder="Email Address"
-            className="w-full rounded-md border border-[#e9edf5] py-3 pr-4 pl-10 text-[#687182] focus:border-transparent focus:ring-2 focus:ring-[#2264e5] focus:outline-none"
+            className="text-textColor w-full rounded-md border border-[#FFFFFF] py-3 pr-4 pl-10 focus:border-transparent focus:ring-2 focus:ring-[#2264e5] focus:outline-none"
           />
         </div>
 
         <div className="relative">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            className="absolute top-1/2 left-3 h-5 w-5 -translate-y-1/2 transform text-[#687182]"
+            className="text-textColor absolute top-1/2 left-3 h-5 w-5 -translate-y-1/2 transform opacity-80"
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
@@ -52,19 +49,23 @@ function LoginForm({ onRegisterClick }) {
           <input
             type="password"
             placeholder="Password"
-            className="w-full rounded-md border border-[#e9edf5] py-3 pr-4 pl-10 text-[#687182] focus:border-transparent focus:ring-2 focus:ring-[#2264e5] focus:outline-none"
+            className="text-textColor w-full rounded-md border border-[#FFFFFF] py-3 pr-4 pl-10 focus:border-transparent focus:ring-2 focus:ring-[#2264e5] focus:outline-none"
           />
         </div>
 
-        <button className="w-full rounded-md bg-[#2264e5] py-3 text-white hover:bg-[#0575e6]">
+        <Button
+          className={
+            "hover:bg-primary w-full rounded-[30px] bg-[#2264e5] py-3 text-[14px] text-white"
+          }
+        >
           Login
-        </button>
+        </Button>
 
-        <div className="text-center text-sm text-[#687182]">
+        <div className="text-textColor text-center text-sm opacity-80">
           Don't have an account?{" "}
           <button
             onClick={onRegisterClick}
-            className="text-[#2264e5] hover:underline"
+            className="text-primary cursor-pointer underline"
           >
             Register
           </button>
