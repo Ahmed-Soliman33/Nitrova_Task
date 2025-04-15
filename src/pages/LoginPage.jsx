@@ -28,11 +28,11 @@ const LoginPage = () => {
             </Button>
           </div>
 
-          <div className="border-primary absolute top-[570px] left-[-207px] hidden h-[557px] w-[557px] rounded-full border md:block xl:top-[620px]"></div>
-          <div className="border-primary absolute top-[570px] left-[-126px] hidden h-[557px] w-[557px] rounded-full border md:block xl:top-[646px]"></div>
+          <div className="border-primary absolute top-[570px] left-[-207px] hidden h-[557px] w-[557px] rounded-full border lg:block xl:top-[580px]"></div>
+          <div className="border-primary absolute top-[570px] left-[-126px] hidden h-[557px] w-[557px] rounded-full border lg:block xl:top-[606px]"></div>
         </div>
 
-        <div className="relative w-full max-w-md bg-white px-4 py-8 lg:w-[540px]">
+        <div className="w-full bg-white px-4 py-8 lg:relative lg:h-screen lg:w-[540px]">
           <LoginForm
             onRegisterClick={(e) => {
               e.stopPropagation();
